@@ -1,0 +1,56 @@
+body, html {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}
+
+main {
+    /* The image used */
+    background-image: url(s-l1000.jpg);
+    /* Full height */
+    height: 100%;
+    overflow: hidden;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+#skin-loader {
+    background: url(skin-loader.gif) center center no-repeat;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#skin-wrapper {
+    display: none;
+}
+
+.gallery {
+    /* display: inline;  */
+    min-height: 200px;
+    padding: 20px;
+}
+
+.gallery .photo {
+    scale: 70%;
+}
+
+.gallery img {
+    /* height: 20%;
+    width: 20%; */
+}
+
+.gallery .photo span {
+    width: 80px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: -13px;
+    left: 30%;
+    background: url(banda.png) no-repeat;
+}
